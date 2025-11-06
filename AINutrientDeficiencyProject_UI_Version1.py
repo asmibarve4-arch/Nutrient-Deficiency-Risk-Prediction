@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key="NUTRIENT_DEFICIENCY_API_KEY")
+genai.configure(api_key="AIzaSyCzv_m9tL7SfqkekHaWQSl9SHRc8cM0bMM")
 model=genai.GenerativeModel("gemini-2.5-flash")
 user_data = {}
 
