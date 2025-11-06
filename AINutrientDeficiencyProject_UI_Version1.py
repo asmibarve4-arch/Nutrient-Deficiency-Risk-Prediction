@@ -173,3 +173,4 @@ if st.button("analyze my risk"):
        response=get_gemini_analysis(user_data, risk_scores_calculated)
     st.write("\n--- Expert Analysis ---")
     st.write(response.text)
+
