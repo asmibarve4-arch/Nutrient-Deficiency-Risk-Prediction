@@ -6,7 +6,7 @@ user_data = {}
 
 #background info 
 "# Nutrient Deficiency Risk Prediction From Demographic and Environmental Factors"
-"As of 2025, over 2 billion individuals worldwide suffer from nutrient deficiencies, representing one of the most pervasive yet underrecognized drivers of global malnutrition. This model leverages demographic, environmental, and dietary data to predict the risk of nutrient deficiencies in individuals, and provide analysis of key contributing factors."
+"As of 2025, over 2 billion individuals worldwide suffer from nutrient deficiencies, representing one of the most pervasive yet unrecognized drivers of global malnutrition. This model leverages demographic, environmental, and dietary data to predict the risk of nutrient deficiencies in individuals, and provide analysis of key contributing factors."
 "Simply fill out the 5-minute survey below to obtain an interpretable, evidence-informed analysis and risk percentages."
 st.divider()
 
