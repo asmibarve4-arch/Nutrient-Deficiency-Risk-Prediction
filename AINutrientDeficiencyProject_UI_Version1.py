@@ -42,7 +42,7 @@ st.subheader("Collecting Medical Background:")
 user_data["gastrointestinal_issues"]=st.multiselect("Do you have any of the following medical conditions? Select all that apply:", options=["Gastrointestinal disorders (e.g., Crohn's disease, celiac disease)", "Chronic kidney disease", "Liver disease", "Thyroid disorders", "Diabetes", "Autoimmune diseases", "Other", "None"])
 user_data["chronic_conditions"]=st.selectbox("Do you have any chronic health conditions that may affect nutrient absorption?", options=["Yes", "No"])
 user_data["pregnancy_status"]=st.selectbox("Are you currently pregnant or breastfeeding?", options=["Yes", "No"])
-user_data["medication_use"]=st.text_input("Please list any medications or supplements you are currently taking (if any):")
+user_data["medication_use"]=st.text_input("Are you currently taking any medications or supplements (Yes or No):")
 user_data["allergies"]=st.text_input("Do you have any known allergies or dietary restrictions? If so, please specify:")
 
 st.subheader("Symptom Checklist")
