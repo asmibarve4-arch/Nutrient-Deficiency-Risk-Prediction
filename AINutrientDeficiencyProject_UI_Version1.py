@@ -106,7 +106,7 @@ def calculate_deficiency_risk(data):
 
     # 6. Symptom Factors (Medium Weight)
     symptoms = data['symptoms']
-    add_risk('Iron', 15, "fatigue" in symptoms or "pale_skin" in symptoms or "unusual_cravings" in symptoms)
+    add_risk('Iron', 15, "Fatigue" in symptoms or "pale_skin" in symptoms or "unusual_cravings" in symptoms)
     add_risk('Vitamin_B12', 10, "fatigue" in symptoms or "pale_skin" in symptoms)
     add_risk('Vitamin_B12', 20, "tingling_numbness" in symptoms)
     add_risk('Vitamin_D', 15, "bone_muscle_pain" in symptoms)
