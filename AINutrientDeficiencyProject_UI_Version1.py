@@ -32,7 +32,7 @@ user_data["sleeptime"]=st.number_input("On average, how many hours of sleep do y
 st.subheader("Collecting Dietary Information:")
 user_data["diet_type"]=st.text_input("Please describe your typical daily diet (e.g., Vegetarian, Vegan, Pescatarian, Omnivore, etc.):")
 user_data["dairy_intake_cups"]=st.number_input("How many cups of dairy (milk, yogurt, cheese) do you consume daily?", min_value=0.0, max_value=10.0, value=1.0, step=0.5)
-user_data["redmeat"]=st.number_input("How many times per week do you consume red meat?", min_value=0.0, max_value=20.0, value=2.0, step=1.0)
+user_data["red_meat_frequency"]=st.number_input("How many times per week do you consume red meat?", min_value=0.0, max_value=20.0, value=2.0, step=1.0)
 user_data["fortifiedfood"]=st.selectbox("How often do you consume fortified foods (e.g., cereals, plant-based milks)?", options=["Never", "Rarely", "Sometimes", "Often"])
 user_data["coffee_tea_cups"]=st.number_input("How many cups of coffee, tea, or caffeinated beverages do you consume daily?", min_value=0.0, max_value=20.0, value=2.0, step=1.0)
 user_data["low_fat_diet"]=st.selectbox("Are you currently on a low-fat or fat-restricted diet?", options=["Yes", "No"])
